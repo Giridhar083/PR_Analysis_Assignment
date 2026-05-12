@@ -105,4 +105,4 @@ The fix introduces an intermediate `_nodes` representation. Documents are first 
 - Risk is low as the public API surface of `SimpleEngine` and the factory classes is preserved.
 
 ---
-* I declare that all written content in this section is my own work, created without the use of AI language models
+* I declare that all written content in this assessment is my own work, created without the use of AI language models or automated writing tools. All technical analysis and documentation reflects my personal understanding and has been written in my own words.
