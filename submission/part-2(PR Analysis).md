@@ -1,7 +1,5 @@
 # Part 2: Pull Request Analysis
 
-**Repository:** [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT)
-
 The two PRs selected for deep analysis are:
 - **PR #1172** – *Make RAG embedding configurable and add gpt-4-turbo in token_counter*
 - **PR #1224** – *Fix the potential duplicate embeddings in the RAG module*
@@ -11,10 +9,6 @@ Both were chosen because they address the same subsystem (the RAG/embedding pipe
 ---
 
 ## PR #1 — PR #1172: Make RAG Embedding Configurable
-
-**Link:** https://github.com/FoundationAgents/MetaGPT/pull/1172
-
----
 
 ### PR Summary
 
@@ -58,10 +52,6 @@ The `RetrieverFactory` uses Python decorators to add this caching behavior inter
 ---
 
 ## PR #2 — PR #1224: Fix Potential Duplicate Embeddings in the RAG Module
-
-**Link:** https://github.com/FoundationAgents/MetaGPT/pull/1224
-
----
 
 ### PR Summary
 
@@ -115,5 +105,4 @@ The fix introduces an intermediate `_nodes` representation. Documents are first 
 - Risk is low as the public API surface of `SimpleEngine` and the factory classes is preserved.
 
 ---
-
-*I declare that all written content in this section is my own work, created without the use of AI language models or automated writing tools.*
+* I declare that all written content in this section is my own work, created without the use of AI language models
