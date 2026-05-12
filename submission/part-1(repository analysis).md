@@ -42,4 +42,4 @@ All five provided repositories are **Python-primary** (Python accounts for ≥ 9
 
 ---
 
-*I declare that all written content in this section is my own work, created without the use of AI language models or automated writing tools.*
+I declare that all written content in this assessment is my own work, created without the use of AI language models or automated writing tools. All technical analysis and documentation reflects my personal understanding and has been written in my own words.
